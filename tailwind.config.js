@@ -4,12 +4,14 @@ module.exports = {
 	theme: {
 		extend: {
 			colors: {
-				teal: {
-					300: '#5BD6BA',
-					800: '#0E2334'
+				purple: {
+					300: '#9538F2',
+					600: '#460E4D',
+					700: '#5A278C',
+					800: '#3B2559'
 				},
 				gray: {
-					300: '#27282D',
+					700: '#141317',
 				},
 			},
 			fontFamily: {

@@ -23,12 +23,12 @@
 
     /* Track */
     ::-webkit-scrollbar-track {
-        background-color: #ffffff00;
+        background-color: #141317;
     }
 
     /* Handle */
     ::-webkit-scrollbar-thumb {
-        background-color: rgb(17 24 39);
+        background-color: #9538F2;
         border-radius: 10px;
         transition-duration: 2s;
         transition-property: background-color;
