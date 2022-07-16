@@ -331,6 +331,7 @@ const Home: NextPage = () => {
                                                                           .name
                                                                     : "Sem licença"
                                                             }
+                                                            link={`https://github.com/${item.full_name}`}
                                                         />
                                                     ))
                                                 }
