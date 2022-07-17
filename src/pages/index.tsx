@@ -188,7 +188,7 @@ const Home: NextPage = () => {
                                                     onSearch(e)
                                                 }
                                             >
-                                                <div className="line-center item-end h-12 cursor-pointer mx-4 gap-x-2 mt-8 flex-wrap gap-y-4 ">
+                                                <div className="line-center item-end  cursor-pointer mx-4 gap-x-2 mt-8 flex-wrap gap-y-4 relative">
                                                     <div className="line-right items-end w-full h-12 px-1 st:w-fit relative border-b border-purple-700">
                                                         <div className="line-center font-semibold h-8 w-8 mr-2 rounded-full text-purple-700 ">
                                                             <AiOutlineSearch size="1.5em" />
@@ -259,7 +259,7 @@ const Home: NextPage = () => {
                                                         onClick={() =>
                                                             setSearched(false)
                                                         }
-                                                        className=" line-left w-24 text-red-500 h-12 hover:opacity-50 cursor-pointer items-end"
+                                                        className="line-center st:line-left w-full st:w-24 text-red-500 h-12 hover:opacity-50 cursor-pointer items-end"
                                                     >
                                                         {
                                                             // * reset search
@@ -271,7 +271,7 @@ const Home: NextPage = () => {
                                                 </div>
                                             </form>
                                             {!searched && (
-                                                <div className="line-left ml-12 mt-8">
+                                                <div className="line-center st:line-left w-full px-1 st:ml-12 st:mt-8 relative">
                                                     <Toggle
                                                         status={order}
                                                         setStatus={setOrder}
@@ -308,7 +308,7 @@ const Home: NextPage = () => {
                                     {
                                         // * repository list
                                         !newSearchLoading && (
-                                            <div className="mt-8 mb-24 line-evenly flex-wrap gap-x-4 gap-y-8 ">
+                                            <div className="mt-8 mb-24 line-evenly flex-wrap gap-x-4 gap-y-8 relative">
                                                 {
                                                     // * searching repositories
                                                     repositories.map((item) => (
